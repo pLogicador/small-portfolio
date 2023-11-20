@@ -1,3 +1,18 @@
+/* Estilizando a barra de rolagem */
+.descricao {
+   overflow-y: auto; 
+}
+.descricao::-webkit-scrollbar {
+   width: 2px; 
+}
+.descricao::-webkit-scrollbar-thumb {
+   background-color: #3f3e3e;
+   border-radius: 5px; 
+}
+.descricao::-webkit-scrollbar-track {
+   background-color: #02d08f; 
+}
+
 body{
     background-image: url(../wppEspaço.jpg);
     background-repeat: no-repeat;
@@ -83,20 +98,21 @@ body{
  }
 
  .cartao .abas img{
-    width: 30px;
+    width: 25px;
  }
 
  .cartao .abas .aba.selecionado{
     background-color: #000000;
-
+    
  }
 
  .cartao .informacoes .abas{
     background-color: #000000;
+    
  }
 
  .cartao .abas .aba:hover{
-    background-color: #363636;
+    background-color: rgb(83, 42, 74);
  } 
 
  .informacoes-abas .informacao{
@@ -147,7 +163,8 @@ body{
  }
 
  .redes-sociais li a:hover{
-    opacity: 0.8;
+    opacity: 0.5;
+    color: rgb(245, 52, 45);
  }
 
  .redes-sociais .curriculo{
